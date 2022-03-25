@@ -1,0 +1,46 @@
+body {
+    background-color: rgb(37, 35, 35);
+}
+
+h1 {
+    font-size: 100px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.principal img {
+    width: 500px;
+    padding: 5px;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container {
+  margin: 0 auto;
+  width: 940px;
+}
+
+.container img {
+    width: 900px;
+}
+
+.container .voltar {
+    width: 50px;
+    margin-left: 50%;
+}

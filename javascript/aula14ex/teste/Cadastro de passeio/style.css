@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+body {
+    height: 100vh;
+    background-image: url(fundo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.div1 {
+    width: 940px;
+    margin: 100px auto;
+    box-shadow: 0px 10px 30px 10px black;
+    margin-bottom: 10px;
+    
+}
+
+.div1 >h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+}
+
+.div1 >h1::first-letter {
+    color: brown;
+    font-size: 1.3em;
+}
+
+
+
+div.div2 {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    box-shadow: 0px 10px 50px 10px black;
+    padding-bottom: 60px;
+   
+    
+}
+
+input {
+    border: 1px solid black;
+    margin: 10px;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    margin-left: 20px;
+    padding: 10px;
+    display: inline-block;
+}
+
+div.div2 p {
+    
+    font-family: 'Pacifico', cursive;
+    display: inline-block;
+    width: 70px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: rgb(29, 29, 29);
+    text-shadow: 5px 5px 8px rgba(0, 0, 0, 0.344);
+    transition: 1s;
+}
+
+div.div2 p:hover {
+    display: inline-block;
+    width: 70px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2em;
+    color: black;
+    text-shadow: 5px 5px 8px black;
+    transition: 1s;
+}
+
+#enviar {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.5em;
+    transition: 1s;
+    
+}
+
+#enviar:hover {
+    padding: 15px;
+    transition: 1s;
+    
+}
+
+#fundo2 {
+   position: absolute;
+   right: 10px;
+   top: 10px;
+   width: 420px;
+   border-radius: 10px;  
+   transition: 1s;
+}
+
+#fundo2:hover {
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.535);
+    transition: 1s;
+}
+
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+    font-size: 1.3em;
+}

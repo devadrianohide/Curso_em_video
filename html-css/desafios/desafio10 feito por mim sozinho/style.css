@@ -1,0 +1,210 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap');
+
+@font-face {
+    font-family:'fonteandroid';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #84E1AD;
+    font-family: sans-serif;
+}
+
+.classe-header {
+        background-image: linear-gradient(to bottom right,#3CD681, #1A5C38);
+      }
+    
+
+h1.titulo-principal {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    padding-top: 30px;
+}
+
+h2.subtitulo-principal {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.nav-menu {
+    margin-top: 50px;
+    
+}
+
+.nav-menu >li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-menu > li >a {
+    font-family: sans-serif;
+   color: white;
+   text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-menu > li > a:hover {
+    background-color: #3cd6818f;
+    color: white;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.body-main {
+    width: 940px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+h1.titulo-main {
+    padding: 20px;
+    font-family:'fonteandroid' ;
+    color: #296645;
+}
+
+.paragrafomain{
+    font-size: 1.4em;
+    text-align: justify;
+    padding: 0px 20px 20px 20px;
+    text-indent: 30px;
+}
+
+
+.h2domain {
+    font-family:'fonteandroid';
+    font-size: 1.5em;
+    color:#296645 ;
+    margin-left: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+        background-image: linear-gradient(to right, #d3f0e0,#fff 80%);
+    
+}
+
+.paragrafomain> a {
+    color: #1A5C38;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #46ec91;
+}
+
+.paragrafomain> a::after {
+    content: '🔗';
+}
+
+.robos-maior {
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.irinafoto {
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.irinafoto> img {
+    width: 900px;
+}
+
+.bugdroidsdiv {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.video {
+    background-color: #1A5C38;
+    width: 940px;
+    margin: 20px auto;
+    padding: 20px 40px 20px 40px;
+    box-sizing: border-box;
+   
+}
+
+.divdaslistas {
+    width: 840px;
+    margin: 0 auto;
+    padding: 20px;
+    border: transparent;
+    background-color: #cbe6d7;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.445);
+   
+}
+
+
+h3.classedoh3list {
+    background-color: #419e6b;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    width: 860px;
+    margin: 0 auto;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.445);
+}
+
+.paragrafolistas {
+    padding: 10px;
+    text-indent: 30px;
+}
+
+.listadebaixo, .lista2 {
+    display: inline-block;
+    list-style: none;
+    font-weight: 550;
+}
+
+.lista2 {
+    margin-left: 180px;
+}
+
+ul.listadebaixo>li::before {
+    content: '✔  ';
+}
+
+.paragrafolistas>a{
+    color: #1A5C38;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #46ec91;
+}
+
+.paragrafolistas>a::after {
+    content: '🔗';
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #1A5C38;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>p {
+    color: white;
+      
+}
+
+span {
+    font-weight: bold;
+    font-size: 18px;
+}
